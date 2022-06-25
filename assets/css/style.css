@@ -10396,6 +10396,7 @@ a.page-numbers {
     background-image: url(../images/blog9.jpg);
     background-size: cover;
     position: relative;
+    justify-content: space-between;
     
 }
 
