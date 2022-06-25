@@ -10389,13 +10389,14 @@ a.page-numbers {
 }
 
 /*======================== END FOOTER TOP AREA CSS =========================*/
-/*======================== solutech FOOTER MIDDLE AREA CSS =========================*/
+/*======================== FOOTER MIDDLE AREA CSS =========================*/
 .witrfm_area {
     background-repeat: no-repeat;
     background-position: center center;
     background-image: url(../images/blog9.jpg);
     background-size: cover;
     position: relative;
+    
 }
 
 .witrfm_area:before {
@@ -10408,6 +10409,7 @@ a.page-numbers {
     right: 0;
     margin: auto;
     background: #153d7af2;
+    justify-content: space-between;
 }
 
 .footer-middle {
@@ -10487,6 +10489,7 @@ a.page-numbers {
     flex-flow: row;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    
 }
 
 .recent-portfolio {
