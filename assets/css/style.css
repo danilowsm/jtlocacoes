@@ -16,7 +16,7 @@ body {
     font-family: 'Barlow', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 1.6;
 }
 
@@ -1503,6 +1503,10 @@ img.wp-post-image {
     color: #fff;
     display: inline-block;
 }
+
+.witr_fea2_icon_top p {
+    font-size: 50px;
+} 
 
 .single_feature2:hover .witr_fea2_icon_top i {
     transition: .5s;
@@ -10396,7 +10400,7 @@ a.page-numbers {
     background-image: url(../images/blog9.jpg);
     background-size: cover;
     position: relative;
-    justify-content: space-between;
+    
     
 }
 
@@ -11329,12 +11333,15 @@ a.page-numbers {
 
 .em-service-title {
     overflow: hidden;
+   
 }
 
 .em-service-title h3 {
     padding: 0;
     transition: .5s;
+    
 }
+
 
 .em-service-title h3 span {
     color: #0c5adb;
@@ -11351,6 +11358,7 @@ a.page-numbers {
 .em-service-desc p {
     transition: .5s;
 }
+
 
 .service-btn {
     /* margin-top: 25px;
@@ -11419,6 +11427,7 @@ a.page-numbers {
 .em-service2 .em-service-inner {
     overflow: hidden;
     width: 100%;
+  
 }
 
 .em-service2.sleft {
@@ -11447,6 +11456,7 @@ a.page-numbers {
 
 .em-service-title h3 a:hover {
     color: #0c5adb;
+
 }
 
 .em-service2:hover .em-service-icon i {
@@ -14089,6 +14099,7 @@ a.dtbtn:hover::before,
     margin-bottom: -140px;
     position: relative;
     z-index: 999;
+    flex-direction: row;
 }
 
 .counter_bg {
