@@ -25,10 +25,10 @@
         }
 
         // Set the recipient email address.
-        $recipient = "info@example.com";
+        $recipient = "danilo@tooqsolucoes.com.br";
 
         // Set the email sub.
-        $sub = "Mail contact from $name";
+        $sub = "Contato do via site em nome de: $name";
 
         // Build the email content.
         $email_content = "Name: $name\n";
