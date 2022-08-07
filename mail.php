@@ -4,7 +4,7 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // form fields and remove whitespace.
         $name = strip_tags(trim($_POST["name"]));
-			$name = str_replace(array("\r","\n"),array(" "," "),$name);
+			  $name = str_replace(array("\r","\n"),array(" "," "),$name);
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $num = trim($_POST["phone"]);
         $zip = trim($_POST["zip"]);
@@ -13,7 +13,7 @@
         $website = trim($_POST["website"]);
         $subject = trim($_POST["subject"]);
         $password = trim($_POST["password"]);
-		 $select_opt = trim($_POST["select_opt"]);
+        $select_opt = trim($_POST["select_opt"]);
         $comment = trim($_POST["comment"]);
 
         // Check sent to the mailer.
